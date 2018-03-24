@@ -8,10 +8,6 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-
-// Binary search is the fastest. In this problem, since alice's score is ascending, linear search will also work, 
-// as long as you keep track of where you ended up last time. If you always search from the beginning, you will get TLE.
-
 int main() {
     int n, m, scoreboard[200000], alice, ranking[200000];
     scanf("%d", &n);
